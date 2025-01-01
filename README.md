@@ -1,4 +1,4 @@
-## Hi there 👋
+## 👋
 
 <!--
 **refat7321-51/refat7321-51** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
