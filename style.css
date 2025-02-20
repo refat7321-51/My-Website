@@ -640,83 +640,85 @@ section{
 
 /* Responsive Design */
 
+/* Responsive Design */
+
 @media (max-width: 1200px) {
-   html {
-       font-size: 55%;
-   }
-   .home {
-       flex-direction: column;
-       text-align: center;
-   }
-   .home-img img {
-       max-width: 80%;
-   }
+    html {
+        font-size: 55%;
+    }
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-img img {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 992px) {
-   .header {
-       padding: 2rem 5%;
-   }
-   section {
-       padding: 8rem 5% 2rem;
-   }
-   .portfolio-container {
-       grid-template-columns: repeat(2, 1fr);
-   }
+    .header {
+        padding: 2rem 5%;
+    }
+    section {
+        padding: 8rem 5% 2rem;
+    }
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
-   .header {
-       flex-direction: column;
-       align-items: center;
-   }
-   .navbar a {
-       margin: 1rem 0;
-       display: block;
-   }
-   .services-container {
-       flex-direction: column;
-   }
-   .portfolio-container {
-       grid-template-columns: 1fr;
-   }
-   .home-content h1 {
-       font-size: 4rem;
-   }
-   .home-content h3 {
-       font-size: 2.5rem;
-   }
-   .home-content p {
-       font-size: 1.4rem;
-   }
-   .about {
-       flex-direction: column;
-       text-align: center;
-   }
-   .about-content h3 {
-       margin-left: 0;
-   }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        margin: 1rem 0;
+        display: block;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+    .home-content h1 {
+        font-size: 4rem;
+    }
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+    .home-content p {
+        font-size: 1.4rem;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content h3 {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 480px) {
-   html {
-       font-size: 50%;
-   }
-   .home-content h1 {
-       font-size: 3.5rem;
-   }
-   .home-content h3 {
-       font-size: 2rem;
-   }
-   .home-content p {
-       font-size: 1.2rem;
-   }
-   .btn {
-       font-size: 1.4rem;
-       padding: 0.8rem 2rem;
-   }
-   .footer {
-       flex-direction: column;
-       text-align: center;
-   }
+    html {
+        font-size: 50%;
+    }
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+    .home-content h3 {
+        font-size: 2rem;
+    }
+    .home-content p {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 2rem;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
