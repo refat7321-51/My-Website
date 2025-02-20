@@ -94,13 +94,16 @@ section{
    color: var(--text-color);
    cursor: pointer;
    display: none;
+align-items: left;
+    position: absolute;
+    right: 9%; /* Adjust this value as per your requirement */
 }
 
 @media (max-width: 768px) {
-   .hamburger {
-       display: block; 
-   }
-
+    .hamburger {
+        display: block; 
+    }
+}
    .navbar {
        position: absolute;
        top: 80px;
