@@ -94,7 +94,7 @@ section{
    color: var(--text-color);
    cursor: pointer;
    display: none;
-align-items: left;
+    align-items: center;
     position: absolute;
     right: 9%; /* Adjust this value as per your requirement */
 }
