@@ -168,6 +168,7 @@ section{
  }
 
  .home-content h3{
+     margin-top:35px;
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
