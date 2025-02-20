@@ -70,84 +70,31 @@ section{
     color: var(--main-color);
 }
 
-
-.navbar .nav-links {
-   display: flex;
-   list-style: none;
-   gap: 2rem;
-}
-
-.navbar .nav-links li a {
-   text-decoration: none;
-   color: var(--text-color);
-   font-size: 1.7rem;
-   transition: 0.3s;
-}
-
-.navbar .nav-links li a:hover {
-   color: var(--main-color);
-}
-
-
-.hamburger {
-   font-size: 2.5rem;
-   color: var(--text-color);
-   cursor: pointer;
-   display: none;
-   position: absolute;
-   right: 9%; /* Adjust this value as per your requirement */
-}
-
-@media (max-width: 768px) {
-    .hamburger {
-        display: block; 
-    }
-}
-   .navbar {
-       position: absolute;
-       top: 80px;
-       right: 0;
-       width: 200px;
-       background: var(--second-bg-color);
-       display: none;
-       flex-direction: column;
-       padding: 1rem;
-       border-radius: 10px;
-   }
-
-   .navbar .nav-links {
-       flex-direction: column;
-       gap: 1.5rem;
-   }
-
-   .navbar .nav-links li {
-       text-align: center;
-   }
-
-   .navbar.show {
-       display: flex;
-   }
-}
-
 .navbar a {
-   position: relative; 
-   padding-bottom: 5px; 
+   font-size: 1.7rem;
+   color: var(--text-color);
+   margin-left: 4rem;
+   position: relative;
+   transition: color 0.3s;
 }
+
 
 .navbar a::after {
-   content: '';
+   content: "";
    position: absolute;
+   width: 0;
+   height: 2px;
+   background: var(--main-color);
    left: 0;
    bottom: 0;
-   width: 0; 
-   height: 2px; 
-   background-color: var(--main-color); 
-   transition: width 0.3s ease; 
+   transition: width 0.3s;
 }
 
 .navbar a:hover::after {
-   width: 100%; 
+   width: 100%;
 }
+
+
 
 .pic{
     width: 320px;
@@ -170,7 +117,6 @@ section{
  }
 
  .home-content h3{
-     margin-top:35px;
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
@@ -650,7 +596,7 @@ section{
    }
 }
 
-@media (max-width: 952px) {
+@media (max-width: 992px) {
    .header {
        padding: 2rem 5%;
    }
