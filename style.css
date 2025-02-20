@@ -95,6 +95,63 @@ section{
 }
 
 
+.navbar .nav-links {
+   display: flex;
+   list-style: none;
+   gap: 2rem;
+}
+
+.navbar .nav-links li a {
+   text-decoration: none;
+   color: var(--text-color);
+   font-size: 1.7rem;
+   transition: 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+   color: var(--main-color);
+}
+
+
+.hamburger {
+   font-size: 2.5rem;
+   color: var(--text-color);
+   cursor: pointer;
+   display: none;
+}
+
+
+@media (max-width: 768px) {
+   .hamburger {
+       display: block; 
+   }
+
+   .navbar {
+       position: absolute;
+       top: 80px;
+       right: 0;
+       width: 200px;
+       background: var(--second-bg-color);
+       display: none;
+       flex-direction: column;
+       padding: 1rem;
+       border-radius: 10px;
+   }
+
+   .navbar .nav-links {
+       flex-direction: column;
+       gap: 1.5rem;
+   }
+
+   .navbar .nav-links li {
+       text-align: center;
+   }
+
+   .navbar.show {
+       display: flex;
+   }
+}
+
 
 .pic{
     width: 320px;
