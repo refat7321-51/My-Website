@@ -22,6 +22,10 @@ var typed = new Typed(".multiple-text3", {
   }
     )
 
+function toggleMenu() {
+      document.querySelector(".navbar").classList.toggle("show");
+  }
+  
 
 
 
