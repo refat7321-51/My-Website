@@ -94,9 +94,8 @@ section{
    color: var(--text-color);
    cursor: pointer;
    display: none;
-    align-items: center;
-    position: absolute;
-    right: 9%; /* Adjust this value as per your requirement */
+   position: absolute;
+   right: 9%; /* Adjust this value as per your requirement */
 }
 
 @media (max-width: 768px) {
