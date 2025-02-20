@@ -118,6 +118,9 @@ section{
    color: var(--text-color);
    cursor: pointer;
    display: none;
+   position: absolute; 
+   right: 9%; 
+   top: 2rem;
 }
 
 
