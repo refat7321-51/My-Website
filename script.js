@@ -17,7 +17,7 @@ var typed = new Typed(".multiple-text2", {
     )
 
 var typed = new Typed(".multiple-text3", {
-    strings: ["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam vel quasi voluptatibus quos. Unde necessitatibus non ab,in velit odio reiciendis  fugiat dolores ratione accusamus! Amet, nisi."],
+    strings: ["My Name Is Md Jawwad Bin Kaysar Refat. I am a student of Computer Science and Technology in Jashore Polytechnic Institute. I am very aware to my dreams. I want To be a Web apps developer and a Cyber Security Specialist. In this moment, I am preparing myself for my dreams.  In Sha Allah, I will be try my best to success in my own life."],
     typeSpeed: 50,
   }
     )
