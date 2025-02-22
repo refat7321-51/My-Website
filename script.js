@@ -25,4 +25,9 @@ var typed = new Typed(".multiple-text3", {
     function toggleMenu() {
       document.querySelector(".navbar").classList.toggle("show");
   }
-  
+    document.querySelectorAll(".navbar a").forEach(item => {
+    item.addEventListener("click", () => {
+        document.querySelector(".navbar").classList.remove("show");});
+  }
+);
+
