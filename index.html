@@ -1,188 +1,193 @@
-6<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website | Refat</title>
-    <link rel="icon" type="image/png" href="portfolio3.jpg">
+    <link rel="icon" type="image/png" href="images/portfolio3.jpg">
 
-    <!-- box icons -->
+                                               <!-- box icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <!-- custom css -->
+                                            
     <link rel="stylesheet" href="style.css">
   </head>
-
+  
   <body>
-    <!-- header design -->
-    <header class="header">
-      <a href="#" class="logo"><span class="multiple-text"></span></a>
-      <nav class="navbar">
-        <a href="#" style="--i:1;"><i class='bx bx-home-heart'></i>Home</a>
-        <a href="#about" style="--i:2;"><i class='bx bxs-user-detail'></i>About</a>
-        <a href="#services" style="--i:3;"><i class="fa-brands fa-servicestack"></i>Services</a>
-      <a href="#portfolio" style="--i:4;"><i class='bx bxs-network-chart'></i>Portfolio</a>
-      <a href="#contact" style="--i:5;"><i class='bx bxs-contact'></i>Contact</a>
-    </nav>
+                                         <!-- header design -->
+  <header class="header">
+  <a href="#home" class="logo" class="animate-top" ><span class="multiple-text"></span></a>
+  <nav class="navbar">
+    <a href="#home" style="--i:1;" ><i class='bx bx-home-heart'></i>Home</a>
+    <a href="#about" style="--i:2;"><i class='bx bxs-user-detail'></i>About</a>
+    <a href="#services" style="--i:3;"><i class="fa-brands fa-servicestack"></i>Services</a>
+    <a href="#portfolio" style="--i:4;" ><i class='bx bxs-network-chart'></i>Portfolio</a>
+    <a href="#contact" style="--i:5;" ><i class='bx bxs-contact'></i>Contact</a>
+  </nav>
     <div class="hamburger" onclick="toggleMenu()">
       <i class='bx bx-menu'></i>
   </div>
-  </header>
+</header>
   
-    <!-- home section design -->
-   <section class="home">
+                                  <!-- home section design -->
+  <section class="home" id="home">
     <div class="home-content">
-      <h3>Hello, It's Me</h3>
-       <h1>Md <span>Refat</span></h1>
-       <h3>And I'm a <span class="multiple-text2"></span></h3>
-       <p><span class="multiple-text3"></span></p>
+      <h3 class="animate-bottom">Hello, It's Me</h3>
+      <h1 class="animate-left">Md <span>Refat</span></h1>
+      <h3 class="animate-top">And I'm a <span class="multiple-text2"></span></h3>
+      <p class="animate-right"><span class="multiple-text3"></span></p>
 
        <div class="social-media">
-        <a href="https://www.facebook.com/refat.29.3.2020.16.04.2023" target="_blank"><i class='bx bxl-facebook'></i></a>
-        <a href="https://wa.me/8801942603289" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
-        <a href="https://www.instagram.com/re_fa_t_09" target="_blank"><i class='bx bxl-instagram' ></i></a>
-        <a href="https://github.com/refat7321-51" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/refat.29.3.2020.16.04.2023" target="_blank" class="animate-zoom delay-1"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.linkedin.com/in/md-jawwad-bin-kaysar-refat-943b16397/" target="_blank" class="animate-zoom delay-2"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/refat7321-51" target="_blank" class="animate-zoom delay-3"><i class='bx bxl-github'></i></a>
+        <a href="https://wa.me/8801942603289" target="_blank" class="animate-zoom delay-4"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.instagram.com/re_fa_t_09" target="_blank" class="animate-zoom delay-5"><i class='bx bxl-instagram'></i></a>
        </div>
 
-       <a href="#" class="btn">Downlaod CV</a>
-      </div>
+       <a href="https://drive.google.com/file/d/1DTycNd1lJkSGk9u7ZzKyviAHn_-k9MaC/view?usp=sharing" target="_blank" class="btn animate-bottom delay-3">Download CV</a>
+    </div>
 
-      <div class="home-image">
-        <img src="file.jpg" alt="" class="pic">
-      </div>
-   </section>
+    <div class="home-image">
+      <img src="images/file.jpg" alt="" class="pic animate-zoom delay-2">
+    </div>
+</section>
   
    <!--about section design-->
 
-   <section class="about" id="about">
+<section class="about" id="about">
     <div class="about-img">
-      <img src="file.jpg" alt="" class="pic">
+      <img src="images/file.jpg" alt="" class="pic animate-left">
     </div>
 
     <div class="about-content">
-      <h2 class="heading1">About <span>Me</span></h2>
-      <h3>Frontend <span class="span2">Developer</span></h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates inventore incidunt accusamus consequuntur vitae veritatis sapiente perspiciatis. Esse praesentium perferendis, reprehenderit molestias eligendi non laudantium iure, blanditiis voluptas nisi voluptatibus inventore modi ad excepturi nulla incidunt vel quaerat dolores sunt. Laboriosam repellat labore hic officia optio?</p>
-      <a href="#about" class="btn">Read More</a>
+      <h2 class="heading1 animate-bottom">About <span>Me</span></h2>
+      <h3 class="animate-top delay-1">Frontend <span class="span2">Developer</span></h3>
+      <p class="animate-right delay-2">I'm a passionate frontend developer who loves turning ideas into interactive digital experiences. With expertise in React, Tailwind CSS, and modern JavaScript, I craft responsive websites that not only look stunning but perform flawlessly. I believe clean code and creative design go hand in hand. When I'm not coding, you'll find me exploring new web technologies or contributing to open-source projects. Let's build something amazing together!</p>
+      <a href="#about" class="btn animate-bottom delay-3">Read More</a>
     </div>
-   </section>
+</section>
 
-   <!--S section design-->
+
+
+                                      <!--S section design-->
    <section class="services" id="services">
-    <h2 class="heading2">Our <span class="span3">Services</span> </h2>
+    <h2 class="heading3 animate-bottom">WHAT I <span class="span3">OFFER</span></h2>
+    <h2 class="heading2 animate-top delay-1">MY <span class="span3">Services</span></h2>
 
     <div class="services-container">
-      <div class="services-box">
-        <i class='bx bx-code-alt' ></i>
-        <h3>Web Development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aperiam corporis ut? Provident perferendis possimus corporis ipsa molestias? Facilis, a atque alias non voluptates optio sunt veritatis nemo minima quibusdam dolor dolorum, error odit quos!  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, sunt!</p>
-        <a href="#services" class="btn">Read More</a>
+      <div class="services-box animate-bottom delay-1">
+        <i class='bx bx-code-alt animate-zoom'></i>
+        <h3 class="animate-right delay-1">Web Development</h3>
+        <p class="animate-left delay-2">"Transform your digital vision into reality with our comprehensive web development services. We build responsive, feature-rich websites using modern frameworks like React, Node.js, and Laravel that scale effortlessly with your business. Our agile development process ensures transparent communication, regular milestones, and on-time delivery. Every project undergoes rigorous testing for performance, security, and cross-browser compatibility. Partner with us to create a powerful online presence that converts visitors into loyal customers and sets you apart from the competition."</p>
+        <a href="#services" class="btn animate-bottom delay-3">Read More</a>
       </div>
 
-
-      <div class="services-box">
-        <i class='bx bxs-paint' ></i>
-        <h3>Graphic Design</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aperiam corporis ut? Provident perferendis possimus corporis ipsa molestias? Facilis, a atque alias non voluptates optio sunt veritatis nemo minima quibusdam dolor dolorum, error odit quos!  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, sunt!</p>
-        <a href="#services" class="btn">Read More</a>
+      <div class="services-box animate-bottom delay-2">
+        <i class='bx bxs-paint animate-zoom'></i>
+        <h3 class="animate-right delay-1">UI / UX</h3>
+        <p class="animate-left delay-2">>"Great design is invisible—it just works. Our UI/UX team dives deep into user research and behavioral analysis to create interfaces that feel intuitive and delightful. We begin with comprehensive user journey mapping and competitive analysis, then move through wireframing, interactive prototyping, and usability testing. Every design decision is backed by data and validated with real users. The result? Digital products that not only look beautiful but also drive higher conversion rates, reduce bounce rates, and create memorable brand experiences that keep users coming back."</p>
+        <a href="#services" class="btn animate-bottom delay-3">Read More</a>
       </div>
 
-      <div class="services-box">
-        <i class='bx bx-bar-chart' ></i>
-        <h3>Digital Marketing</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aperiam corporis ut? Provident perferendis possimus corporis ipsa molestias? Facilis, a atque alias non voluptates optio sunt veritatis nemo minima quibusdam dolor dolorum, error odit quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, sunt!</p>
-        <a href="#services" class="btn">Read More</a>
+      <div class="services-box animate-bottom delay-3">
+        <i class='bx bx-bar-chart animate-zoom'></i>
+        <h3 class="animate-right delay-1">Responsive</h3>
+        <p class="animate-left delay-2">One website, infinite possibilities. Responsive design isn't just about shrinking content—it's about reimagining how users interact with your brand across different contexts. Our designers craft breakpoint-specific layouts that maintain visual hierarchy and usability whether viewed on a 4-inch phone or a 27-inch monitor. We optimize images and assets for each device, implement adaptive typography, and ensure lightning-fast load times even on slower connections. With Google's mobile-first indexing, responsive design is no longer optional—it's essential for SEO rankings. Invest in a flexible foundation that grows with technology and user expectations.</p>
+        <a href="#services" class="btn animate-bottom delay-3">Read More</a>
       </div>
     </div>
-  </section>
+</section>
 
-  <!--portfolio section design-->
+                                    <!--portfolio section design-->
 
   <section class="portfolio" id="portfolio">
-    <h2 class="heading2">Latest <span class="span3"> Project</span></h2>
+    <h2 class="heading2 animate-bottom">Latest <span class="span3"> Project</span></h2>
 
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-            <img src="portfolio1.jpg" alt="">
-          <div class="portfolio-layer">
-            <h4>Web Design <span class="span4"> 1</span></h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-             <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio2.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design <span class="span4"> 2</span></h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-           <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-        </div>
-      </div>
-
-      <div class="portfolio-box">
-        <img src="portfolio3.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>Web Design <span class="span4"> 3</span></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-         <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-      </div>
-    </div>
-
-    <div class="portfolio-box">
-      <img src="portfolio4.jpg" alt="" class="port4">
-    <div class="portfolio-layer">
-      <h4>Web Design <span class="span4"> 4</span></h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-       <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-    </div>
-  </div>
-
-     <div class="portfolio-box">
-       <img src="portfolio5.jpg" alt="">
-        <div class="portfolio-layer">
-           <h4>Web Design <span class="span4"> 5</span></h4>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-       <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-         </div>
-       </div>
-
-       
-     <div class="portfolio-box">
-      <img src="portfolio6.jpg" alt="">
-       <div class="portfolio-layer">
-          <h4>Web Design <span class="span4"> 6</span></h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
-      <a href="#portfolio"><i class='bx bx-link-external' ></i></a>
-        </div>
-      </div>
-      </div>
-           </section>
-
-
-        <!--Contact section Design-->
-        <section class="contact" id="contact">
-          <h2 class="heading2">Contact <span class="span4">Me!</span></h2>
-        
-          <form action="#">
-            <div class="input-box">
-              <input type="text" placeholder="Full Name">
-              <input type="email" placeholder="Email-Address">
+    <div class="portfolio-container">
+                                          <!-- Portfolio 1 -->
+        <div class="portfolio-box animate-zoom delay-1">
+            <img src="images/Website1.png" alt="">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"> <span class="span4">Trafalgar </span></h4>
+                <p class="animate-top delay-1">A modern healthcare platform that provides online medical services. Users can search for doctors, order medicines from an online pharmacy, and book virtual consultations. Features a clean blue-white design.Ideal for providing progressive and affordable healthcare access to everyone.</p>
+                <a href="https://refat7321-51.github.io/Trafalgar/" target="_blank" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
             </div>
+        </div>
 
-            <div class="input-box">
-              <input type="number" placeholder="Mobile Number">
-              <input type="text" placeholder="Email-Subject">
+                                       <!-- Portfolio 2 -->
+        <div class="portfolio-box animate-zoom delay-2">
+            <img src="images/Website2.png" alt="">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"> <span class="span4">Gaza Relief Donation</span></h4>
+                <p class="animate-top delay-1">A charity and donation landing page that raises awareness about the humanitarian crisis in Gaza. Uses powerful photojournalism by Ahmed Al Arini to showcase the real situations of hunger, medical emergencies, and food insecurity. Motivates visitors to donate and creates an emotional connection for fundraising purposes.</p>
+                <a href="https://refat7321-51.github.io/Donation/" target="_blank" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messages......"></textarea>
+        </div>
 
-            <a href="#contact" class="btn">Send Message</a>
-          </form>
-            </section>
+                                      <!-- Portfolio 3 -->
+        <div class="portfolio-box animate-zoom delay-3">
+            <img src="images/portfolio3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"><span class="span4">Web Design 3</span></h4>
+                <p class="animate-top delay-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
+                <a href="#portfolio" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
+                                       <!-- Portfolio 4 -->
+        <div class="portfolio-box animate-zoom delay-1">
+            <img src="images/portfolio4.jpg" alt="" class="port4">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"><span class="span4">Web Design 4</span></h4>
+                <p class="animate-top delay-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
+                <a href="#portfolio" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+                                         <!-- Portfolio 5 -->
+        <div class="portfolio-box animate-zoom delay-2">
+            <img src="images/portfolio5.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"><span class="span4">Web Design 5</span></h4>
+                <p class="animate-top delay-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
+                <a href="#portfolio" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+                                        <!-- Portfolio 6 -->
+        <div class="portfolio-box animate-zoom delay-3">
+            <img src="images/portfolio6.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 class="animate-bottom"><span class="span4">Web Design 6</span></h4>
+                <p class="animate-top delay-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nulla sed accusantium quod aspernatur? Tempore laudantium aspernatur accusantium veritatis consequatur.</p>
+                <a href="#portfolio" class="animate-zoom delay-2"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+                                  <!--Contact section Design-->
+ <section class="contact" id="contact">
+
+    <h2 class="heading2 animate-bottom">Contact <span class="span4">Me!</span></h2>  
+    <form action="#" class="animate-top delay-1">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" class="animate-left delay-1">
+            <input type="email" placeholder="Email-Address" class="animate-right delay-2">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number" class="animate-left delay-3">
+            <input type="text" placeholder="Email-Subject" class="animate-right delay-4">
+        </div>
+        <textarea class="animate-bottom delay-2" cols="30" rows="10" placeholder="Your Messages......"></textarea>
+        <a href="#contact" class="btn animate-zoom delay-3">Send Message</a>
+    </form>
+
+ </section>
       <!--footer design-->
 
       <footer class="footer">
@@ -192,7 +197,7 @@
 
 
         <div class="footer-iconTop">
-          <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
       </footer>
 
@@ -201,12 +206,3 @@
     <script src="./script.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
