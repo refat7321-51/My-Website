@@ -299,17 +299,6 @@ section{
     color: var(--main-color) ;
  }
 
- .pic2{
-    width: 400px;
-    border-radius: 20%;
- }
-
- .pic2 {
-   max-width: 100%;
-   height: auto;
-   display: block;
-}
-
  .about{
     display: flex;
     justify-content: center;
@@ -720,6 +709,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
