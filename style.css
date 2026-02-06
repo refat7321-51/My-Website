@@ -229,12 +229,23 @@ section{
  }
  @media only screen and (max-width: 768px) {
   .pic {
-    width: 210px;
+    width: 230px;
     border-radius: 18%;
       margin-bottom:170px;
   }
 }
 
+ .pic2{
+    width: 285px;
+    border-radius: 20%;
+ }
+ @media only screen and (max-width: 768px) {
+  .pic2 {
+    width: 210px;
+    border-radius: 18%;
+    
+  }
+}
 
  .home-img img{
     max-width: 450px;
@@ -709,6 +720,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
