@@ -244,7 +244,7 @@ section{
   .pic2{
     width: 175px;
     border-radius: 18%;
-   
+   margin-top: 50px;
    transform: translateY(-60px);
   }
 }
@@ -711,6 +711,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
