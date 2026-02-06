@@ -233,7 +233,7 @@ section{
     border-radius: 18%;
     margin-bottom: 155px;
     margin-top: 13.5px;
-    transform: translateY(-60px);
+    transform: translateY(-85px);
   }
 }
  .pic2{
@@ -243,9 +243,9 @@ section{
  @media only screen and (max-width: 768px) {
   .pic2{
     width: 215px;
-    border-radius: 1%;
-    margin-top: -220px;
-    transform: translateY(-60px);
+    border-radius: 18%;
+    margin-top: -250px;
+    transform: translateY(-100px);
   }
 }
 
@@ -711,6 +711,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
