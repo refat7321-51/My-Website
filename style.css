@@ -575,7 +575,7 @@ section{
    color: var(--second-bg-color);
 }
 
-/*KEYFRAMS ANIMATION - শুধু hover effects এর জন্য রাখা */
+
 
 /*KEYFRAMS ANIMATION */
 @keyframes slideRight{
@@ -700,3 +700,4 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
