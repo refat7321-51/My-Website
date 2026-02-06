@@ -223,17 +223,17 @@ section{
     font-size: 1.6rem;
  }
  
- .pic{
+  .pic{
     width: 290px;
     border-radius: 20%;
+    margin-bottom: 25px;
  }
  @media only screen and (max-width: 768px) {
   .pic{
     width: 255px;
     border-radius: 18%;
-    margin-bottom: 155px;
+    margin-bottom: 255px;
     margin-top: 13.5px;
-    transform: translateY(-85px);
   }
 }
  .pic2{
@@ -242,10 +242,10 @@ section{
  }
  @media only screen and (max-width: 768px) {
   .pic2{
-    width: 215px;
+    width: 175px;
     border-radius: 18%;
-    margin-top: -250px;
-    transform: translateY(-100px);
+   
+   transform: translateY(-60px);
   }
 }
 
@@ -711,6 +711,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
