@@ -75,7 +75,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 2rem 9%;
     background: #1f242d; 
     background-color: #1f242d; 
@@ -700,4 +700,5 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
