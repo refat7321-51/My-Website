@@ -229,7 +229,7 @@ section{
  }
  @media only screen and (max-width: 768px) {
   .pic {
-    width: 195px;
+    width: 210px;
     border-radius: 18%;
       margin-bottom:170px;
   }
@@ -709,6 +709,7 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
 
