@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 50px; 
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 
@@ -700,5 +701,6 @@ section{
     }
     .heading2 { font-size: 28px; }
 }
+
 
 
